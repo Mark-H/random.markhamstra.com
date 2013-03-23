@@ -1,0 +1,46 @@
+// Import Foundation
+@import "settings";
+@import "foundation";
+@import "general_foundicons";
+
+body, html {
+  height: 100%;
+}
+
+#page {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+
+  > aside {
+    overflow-y: scroll;
+    height: 100%;
+    border-right: 1px solid #dbdbdb;
+    padding: 0;
+  }
+
+  > section {
+    overflow-y: scroll;
+    height: 100%;
+  }
+}
+
+#sidebar {
+
+}
+
+.section {
+  .actions {
+    display: none;
+
+    background-color: #eaeaea;
+    padding: .25em .5em;
+  }
+
+  &.active {
+    .actions {
+      display: block;
+    }
+  }
+}
