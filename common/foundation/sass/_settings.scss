@@ -1,8 +1,8 @@
 // Required global settings and mixins for Foundation
-@import "foundation/foundation-global";
+@import "../../../frameworks/foundation/foundation-global";  
 
 // foundicons settings
-$fontFileName: "../fonts/general_foundicons";
+$fontFileName: "../../../common/foundation/fonts/general_foundicons";
 $fontName: "GeneralFoundicons";
 $classPrefix: "foundicon-";
 

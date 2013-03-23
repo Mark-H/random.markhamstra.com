@@ -1,16 +1,15 @@
 // Import Foundation
 @import "../../../common/foundation/sass/settings";
-@import "foundation";
-@import "../../../common/foundation/sass/general_foundicons";
+@import "../../../frameworks/foundation"; 
+@import "../../../common/foundation/sass/general_foundicons"; 
 
 body, html {
   height: 100%;
 }
-
+ 
 #page {
   max-width: 100%;
   width: 100%;
-  height: 100%;
   overflow: none;
 
   > aside {
