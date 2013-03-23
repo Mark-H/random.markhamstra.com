@@ -1,7 +1,7 @@
 // Import Foundation
-@import "settings";
+@import "../../../common/foundation/sass/settings";
 @import "foundation";
-@import "general_foundicons";
+@import "../../../common/foundation/sass/general_foundicons";
 
 body, html {
   height: 100%;
