@@ -3989,10 +3989,24 @@ table {
 body, html {
   height: 100%; }
 
+#mast-head h3, #mast-head ul {
+  margin: 0;
+  padding: 0; }
+#mast-head h3 {
+  font-size: 1em; }
+
+.tree-icons {
+  text-align: center;
+  padding: 14px 0 8px 0;
+  background: white; }
+  .tree-icons i {
+    font-size: 1.4em; }
+
 #page {
   max-width: 100%;
   width: 100%;
-  overflow: none; }
+  overflow: none;
+  height: 100%; }
   #page > aside {
     overflow-y: scroll;
     height: 100%;
@@ -4001,6 +4015,12 @@ body, html {
   #page > section {
     overflow-y: scroll;
     height: 100%; }
+
+.top-bar {
+  margin-bottom: 0; }
+
+#sidebar {
+  background: #efefef; }
 
 .section .actions {
   display: none;
